@@ -86,7 +86,7 @@ pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu1
 - `acct_alert.csv`
 - `acct_predict.csv`
 
-若資料位置與預設不同，請在執行程式時於指令最後加上 `--data_dir` `data_path` 來指定資料所在位置。
+若資料位置與預設不同，請在執行程式時於指令最後加上 `--data_dir data_path` 來指定資料所在位置。
 
 
 ### 3. 執行程式
