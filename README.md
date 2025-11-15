@@ -109,8 +109,7 @@ python main.py --device auto --epochs 3000 --patience 200 --hidden 128 --layers 
 - `find_col(df, candidates)`：自動辨識欄位名稱  
 - `resolve_columns(tx, alert, predict)`：統一欄位命名（來源、目的、金額等）  
 - `build_account_features(tx, col)`：將交易紀錄轉成帳戶層級特徵  
-  - 包含轉入/轉出金額統計、degree 特徵、交易次數、log1p特徵  
-  - is_esun 帳戶推斷  
+  - 包含轉入/轉出金額統計、degree 特徵、交易次數、log1p特徵、是否為玉山銀行帳戶推斷  
 
 
 ---
