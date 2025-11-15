@@ -36,7 +36,7 @@
 ```
 .
 ├── Model/
-│   ├── graph_based_model.py     # GraphSAGE 模型、AMP、訓練流程
+│   ├── graph_based_model.py         # GraphSAGE 模型、AMP、訓練流程
 │   └── README.md
 │
 ├── Preprocess/
@@ -154,4 +154,5 @@ python main.py     --device auto --epochs 3000 --patience 200     --hidden 128 -
 - Conservative search 最佳 threshold = **0.581**  
 - 使用 threshold = 0.581 → Validation F1 = **0.7048**  
 - Model 預測 **127 個帳戶** 為 alert / suspicious  
+
 
