@@ -137,7 +137,7 @@ python main.py --device auto --epochs 3000 --patience 200 --hidden 128 --layers 
 1. 載入三大資料集  
 2. 自動解析欄位名稱  
 3. 建立帳戶特徵  
-4. 建立帳戶 → node index 映射  
+4. 將每一個帳戶的字串 ID 轉換成連續的編號，使帳戶能作為圖神經網路中的節點被使用
 5. Construct CSR adjacency  
 6. Full-batch GraphSAGE 訓練（AMP + early stopping）  
 7. Threshold 搜尋  
