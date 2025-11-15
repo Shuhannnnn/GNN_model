@@ -54,7 +54,7 @@
 
 - 自動辨識欄位名稱（如 `src` / `dst` / `amt`）
 - 交易資料聚合 → 帳戶向量特徵
-- 建構 CSR Adjacency（含雙向邊＋self-loop）
+- 建構 Compresses Sparse Row (CSR) Adjacency（含雙向邊＋self-loop）
 - GraphSAGE full-batch 訓練
 - 在 Recall 不低於最低要求的前提下，從多個 threshold 中挑選 F1-score 最佳時的 threshold
 - 輸出比賽格式之 `result.csv`
