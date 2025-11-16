@@ -1,7 +1,7 @@
-# AI CUP 2025 玉山人工智慧公開挑戰賽 — 警示帳戶預測
+# AI CUP 2025 玉山人工智慧公開挑戰賽 — GraphSAGE-based GNN
 
-
-本專案為「2025 玉山人工智慧公開挑戰賽-警示帳戶預測」的實作，展示如何利用交易資料構建帳戶本身的特徵向量，與連結帳戶之間的交易關係圖，並透過 GraphSAGE-based 的 Graph Neural Network (GNN) 進行警示帳戶的辨別。
+## 介紹
+本專案為「2025 玉山人工智慧公開挑戰賽」的實作，展示如何利用交易資料構建帳戶本身的特徵向量，與連結帳戶之間的交易關係圖，並透過 GraphSAGE-based 的 Graph Neural Network (GNN) 進行警示帳戶的辨別。
 
 專案包含三個核心 Python 模組：
 
@@ -151,8 +151,4 @@ python main.py --device auto --epochs 3000 --patience 200 --hidden 128 --layers 
 - Conservative search 最佳 threshold = **0.696**  
 - 使用 threshold = 0.696 → Validation F1 = **0.7029**  
 - Model 預測 **122 個帳戶** 為 alert / suspicious  
-
-
-
-
 
