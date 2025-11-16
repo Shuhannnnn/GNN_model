@@ -75,7 +75,7 @@
 安裝指令：
 
 ```bash
-pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt 
 ```
 
 
@@ -151,4 +151,8 @@ python main.py --device auto --epochs 3000 --patience 200 --hidden 128 --layers 
 - Conservative search 最佳 threshold = **0.696**  
 - 使用 threshold = 0.696 → Validation F1 = **0.7029**  
 - Model 預測 **122 個帳戶** 為 alert / suspicious  
+  - **Public score 0.6909**
+  - **Private score 0.6056**
+
+
 
